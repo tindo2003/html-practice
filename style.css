@@ -1,0 +1,86 @@
+
+* {
+    font-family:  'Playfair Display', serif;
+    font-size: 25px;
+  }
+body {
+    background-color: blanchedalmond;
+}
+
+.title {
+    color: cornflowerblue;
+    background: url(moon.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    border: 1px solid black;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    font-family:  'Playfair Display', serif;
+}
+    
+canvas {
+
+        
+            padding-left: 0;
+            padding-right: 0;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            width: 800px;
+            border:1px solid black;
+}
+   
+   
+input {font-size: 14px;}
+.Title {
+    text-align: center;
+    color: cornflowerblue;
+    background: url(cat.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    border: 1px solid black;
+    padding: 30px;
+}
+
+.fontTry{
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+#input {
+    border: 1px solid #B5E6EC;
+    background: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin: 15px auto;
+}
+#input:hover {
+    color: #B5E6EC;
+}
+
+.slider {
+    width:225px;
+    height:225px;
+    background: url(cat.jpg);
+    animation: slide 20s infinite;
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin: 30px auto;
+}
+@keyframes slide {
+    25% {
+        background: url(cat.jpg);
+    }
+    50% {
+        background: url(moon.jpg);
+    }
+    75% {
+        background: url(cat.jpg);
+    }
+    100% {
+        background: url(moon.jpg);
+    }
+}
+
